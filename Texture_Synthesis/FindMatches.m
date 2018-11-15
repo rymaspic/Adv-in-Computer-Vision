@@ -4,7 +4,7 @@ function [bestMatches, errors] = FindMatches(template, sample, G)
 epsilon = 0.1; 
 delta = 0.3;
 
-% TODO: set the mask variable, need normalizaiton
+% set the mask variable, need normalizaiton
 % validMask is a square mask of width w that is 1 where template is
 % filled
 % partition sample to blocks (represented by column vectors).
